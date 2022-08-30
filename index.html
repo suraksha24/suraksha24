@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Rida Sarwar Bilgrami"/>
+    <title>University Student_Marks_Management|Main Page</title>
+    <link href="css/app.css" type="text/css" rel="stylesheet"/>
+        <link href="node_modules/bootstrap/dist/css/bootstrap.css" type="text/css" rel="stylesheet"/>  
+                <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" type="text/css" rel="stylesheet"/>  
+     <script src="app.js"></script>
+</head>
+<body style="background-color:black;">
+    <div class="containner">
+        <div>
+<h1 style="font-size:50px; float:left;text-align:  center; color: blanchedalmond; " >University Student's Result Management System</h1>
+<img src="images/student.jpg" style="float:right" class="img-circle" width="10%" height="10%" alt="Student Marks Management System">
+<marquee style="color:blanchedalmond;">Result Management System For University Students</marquee>
+<div class="progress">
+<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"
+style="width: 100%">
+</div>
+</div>
+</div>
+<!--<button class="btn btn-2 btn-2i add"  value="Add Student" onclick="show()">Add Student</button>-->
+<div class="form center" id="form"  style="display:block; margin-left: 5%;align:center">
+        <table>
+<tr>
+    <th class="label">Student Name:</th>
+<td>
+<input class="input-sm" placeholder="Student_Name" type="text" id="n" ><span style="margin-left:10px;" class="badge">Student Name here</span></td>
+</tr>
+<tr class="btn-group"><td></td><td></td></tr>
+<tr><td></td><td></td></tr>
+<tr><td></td><td></td></tr>
+<tr><th class="label">Student Id:</th>
+<td><input class="input-sm" placeholder="Student_Id" type="text" id="a" ><span style="margin-left:10px;" class="badge">Student Id here</span></td>
+</tr>
+<tr class="btn-group"><td></td><td></td></tr>
+<tr><td></td><td></td></tr>
+<tr><td></td><td></td></tr>
+<tr><th class="label">Net Marks :</th>
+<td><input class="input-sm" placeholder="Networking_Marks" type="text" id="N" ><span style="margin-left:10px;" class="badge">Networking Marks here</span></td>
+</tr>
+<tr class="btn-group"><td></td><td></td></tr>
+<tr><td></td><td></td></tr>
+<tr><td></td><td></td></tr>
+<tr><th class="label">D.C Marks :</th>
+<td><input class="input-sm" placeholder="Data_Communication_Marks" type="text" id="D" ><span style="margin-left:10px;" class="badge">D.C Marks here</span></td>
+</tr>
+<tr class="btn-group"><td></td><td></td></tr>
+<tr><td></td><td></td></tr>
+<tr><td></td><td></td></tr>
+<tr><th class="label">A.I Marks :</th>
+<td><input class="input-sm"placeholder="Artificial_Intelligence_Marks" type="text" id="AI" ><span style="margin-left:10px;" class="badge">A.I Marks here</span></td>
+</tr>
+<tr class="btn-group"><td></td><td></td></tr>
+<tr><td></td><td></td></tr>
+<tr><td></td><td></td></tr>
+<tr>
+    <th class="label">Java Marks:</th>
+<td><input class="input-sm" placeholder="Java_Marks" type="text" id="J"><span style="margin-left:10px;" class="badge">Java Marks here</span></td>
+</tr>
+<tr class="btn-group"><td></td><td></td></tr>
+<tr><td></td><td></td></tr>
+<tr><td></td><td></td></tr>
+<tr class="label">
+    <td class="none"></td>
+    <td class="none"></td>
+    <td class="none"></td>
+    <td class="none">
+<button class="btn btn-2 btn-2e btn-sm" value="Save" onclick="show2()">Save</button>
+    </td>
+</tr>
+        </table>
+<!--    <strong>
+Name:<input onFocus="this.style.backgroundColor='lightgreen';" onBlur="this.style.backgroundColor='lightblue';" type="text" id="n"  >
+Age &nbsp :<input onFocus="this.style.backgroundColor='lightgreen';" onBlur="this.style.backgroundColor='lightblue';" type="text" id="a" ><br/><hr/>
+Net Marks  :<input onFocus="this.style.backgroundColor='lightgreen';" onBlur="this.style.backgroundColor='lightblue';" type="text" id="N" ><br/><br/>
+D.C Marks  :<input onFocus="this.style.backgroundColor='lightgreen';" onBlur="this.style.backgroundColor='lightblue';" type="text" id="D" ><br/><br/>
+A.I Marks  :<input onFocus="this.style.backgroundColor='lightgreen';" onBlur="this.style.backgroundColor='lightblue';" type="text" id="AI" ><br/><br/>
+Java Marks  :<input onFocus="this.style.backgroundColor='lightgreen';" onBlur="this.style.backgroundColor='lightblue';" type="text" id="J" ><br/><br/>
+Compiler Marks  :<input onFocus="this.style.backgroundColor='lightgreen';" onBlur="this.style.backgroundColor='lightblue';" type="text" id="CC" ><br/><br/>
+S.E Marks  :<input onFocus="this.style.backgroundColor='lightgreen';" onBlur="this.style.backgroundColor='lightblue';" type="text" id="SE" ><br/><br/>
+C.G Marks  :<input onFocus="this.style.backgroundColor='lightgreen';" onBlur="this.style.backgroundColor='lightblue';" type="text" id="CG" ><br/><br/>
+    </strong>-->
+</div>
+<h2>
+    <br>
+    <div id="studentdiv" style="float: right;margin-right: 5%;">
+        <table class="table table-condensed table-hover table-bordered" id="student" ><thead><th class="th">sr#</th><th class="th">User Name:</th><th class="th">Student Id</th><th class="th">Net Marks</th><th class="th">D.C Marks</th><th class="th">A.I Marks</th><th class="th">Java Marks</th><th class="th">Percentage</th></table></table></table></div></h2>
+        </div>
+        </body>
+</html>
+
